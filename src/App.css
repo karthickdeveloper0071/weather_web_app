@@ -1,0 +1,120 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2F3640;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.input_contianer{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cityinput{
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+.Search-icon{
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.Search-icon img{
+  object-fit: contain;
+  margin: 5px;
+}
+.imgae{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+
+}
+.imgae img{
+  width: 160px;
+  height: 160px;
+}
+.temp,.location,.country{
+  margin-top: 5px;
+  font-size: 25px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  color: #ffbc00;
+  font-weight: 400;
+  font-size: 40px;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  
+}
+.cord div span{
+  font-size: 14px;
+}
+
+.humidity-persentage,
+.wind-persentage,
+.cord div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding: 5px;
+}
+.datacontianer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.element{
+  text-align: center;
+}
+.icon{
+height: 50px;
+width: 50px;
+}
+.text{
+  font-size: 12px;
+  color: #888;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}
+.copyright span{
+  color: #333;
+}
